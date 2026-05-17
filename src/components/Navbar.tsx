@@ -17,7 +17,7 @@ const Navbar = () => {
             <Link href={"/groccery-staples"} className='text-[17px] text-gray-600 font-[600] hover:text-primary'>Groccery & Staples</Link>
             <div className="relative group">
               <span className='relative text-[17px] flex text-gray-600 gap-1 font-[600] hover:text-primary'>More <FaAngleDown size={20}/>
-              
+                
               </span>
               <div className="absolute top-full left-0 w-[200px] bg-white shadow-md rounded-md py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible">
                 <Link href={"/"} className='block px-4 py-2 text-gray-600 hover:bg-gray-100'>Health & Beauty</Link>
