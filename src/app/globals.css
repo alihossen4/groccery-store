@@ -32,3 +32,36 @@ body {
     max-width: 1320px;
     margin:0 auto;
 }
+.item{
+    position: relative;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: 10;
+    size: 20px;
+    color: black;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    font-weight: 600;
+}
+.swiper-button-prev {
+  position: absolute;
+  left: 10px;
+  transform: rotate(180deg);
+
+}
+.swiper-button-next{
+  position: absolute;
+  right: 10px;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  color: var(--color-primary);
+}
