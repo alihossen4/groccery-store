@@ -25,11 +25,11 @@ const Header = () => {
                         <Link href={"/signup"} className='text-white ml-4 px-4 py-1.5 rounded-md bg-blue-500 hover:bg-blue-300 hover:text-black'>Sign Up</Link>
                         </div>
                     <div className="flex items-center ml-3">
-                        <Link href={"/favorite"} className="relative mr-3 group">
+                        <Link href={"/favorite"} className="relative mr-3 group cart-group">
                             <span className='bg-[#DC2626] flex absolute -top-2 -right-2 w-5 h-5 items-center justify-center text-white text-xs rounded-full text-md'>3</span>
                             <FaRegHeart size={35} className='cursor-pointer group-hover:text-primary'/>
                         </Link>
-                        <Link href={"/cart-items"} className="relative group">
+                        <Link href={"/cart-items"} className="relative group cart-group">
                             <span className='bg-[#DC2626] flex absolute -top-1.5 -right-2 w-5 h-5 items-center justify-center text-white text-xs rounded-full text-md'>5</span>
                             <IoCartOutline size={37} className='cursor-pointer group-hover:text-primary'/>
                         </Link>

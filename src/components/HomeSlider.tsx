@@ -6,6 +6,7 @@ import slider2 from "../../public/slider2.jpg"
 import slider3 from "../../public/slider3.jpg"
 import 'swiper/css';
 import { Navigation, Autoplay } from 'swiper/modules';
+import { Divider } from '@mui/material';
 
 
 const HomeSlider = () => {
@@ -14,10 +15,12 @@ const HomeSlider = () => {
       <div className="container">
         <Swiper
         navigation={true}
-        autoplay={{ delay: 2500, disableOnInteraction: true }}
+        loop={true}
+        autoplay={{ delay: 4000, disableOnInteraction: true }}
         modules={[Navigation, Autoplay]}
         className='mySwiper'
     >
+        
       <SwiperSlide>
           <div className="item">
             <Image src={slider1} alt='slider' width={1200} height={300} className=' w-full h-[650px] !important rounded-lg'/> 
@@ -34,6 +37,7 @@ const HomeSlider = () => {
               <Image src={slider3} alt='slider' width={1200} height={300} className='w-full h-[650px] !important rounded-lg'/>
           </div>
       </SwiperSlide>
+      
       </Swiper>
       </div>
     </div>

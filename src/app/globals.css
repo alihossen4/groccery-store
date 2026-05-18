@@ -42,3 +42,40 @@
   color: var(--color-secondary);
   background: var(--color-primary);
 }
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+.swiper-slide {
+  width: auto;
+}
+/* .marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .marquee-content {
+  width: 100%;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+ .header{
+  background-color: white !important;
+  color: black !important;
+ }
+ .cart-group{
+  color: black !important;
+ }
