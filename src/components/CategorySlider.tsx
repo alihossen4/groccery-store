@@ -20,7 +20,7 @@ const CategorySlider = () => {
   return (
     <div className='py-4'>
         <div className="container">
-            <h2 className='text-[32px] font-[600] mb-6'>Shop by Category</h2>
+            <h2 className='text-[32px] font-[600] mb-3'>Shop by Category</h2>
             <Swiper
                 spaceBetween={20}
                 slidesPerView={10}
